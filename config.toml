@@ -1,4 +1,4 @@
 baseURL = "https://blog.brigade.sh/"
 languageCode = "en-us"
 title = "Brigade Blog"
-theme = "er"
+theme = "tale"
