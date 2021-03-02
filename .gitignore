@@ -1,0 +1,23 @@
+.DS_Store
+rootfs/svc
+.sass-cache/
+.yarnclean
+_site/*
+_site/
+.ncurc.yml
+.publish/*
+.publish/
+public/
+node_modules/
+bower_components/
+vendor/
+rootfs/
+app/*
+resources/
+
+# JetBrains IDEs (GoLand, IntelliJ, ...) config folder
+.idea
+
+# Link checker artifacts
+bin/
+tmp/
