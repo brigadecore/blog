@@ -160,6 +160,9 @@ And install Brigade with default configuration:
 $ helm install brigade2 ~/charts/brigade --namespace brigade2
 ```
 
+It can take a few minutes for everything to come up and some components may
+"flap" until other components upon which they depend are running and available.
+
 If you're well-versed in Helm, feel free to inspect and tweak configuration
 values, but doing so is beyond the scope of these instructions.
 
@@ -183,6 +186,10 @@ move it to any location on your path, such as `/usr/local/bin`, for instance.
 If you're already a frequent Brigade 1.x user, you may want to rename the binary
 to something like `brig2` to avoid confusing it with your existing Brigade 1.x
 CLI.
+
+You may also have to enabled execution of the downloaded file with
+`chmod 755 <path/to/file>` and your OS may enforce other security restrictions
+that require you to explicitly allow execution of this new binary.
 
 ### Logging In
 
