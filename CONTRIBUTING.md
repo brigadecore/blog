@@ -70,3 +70,9 @@ Date:   Thu Feb 2 11:41:15 2018 -0800
 
 Notice the `Author` and `Signed-off-by` lines match. If they don't,
 the PR will be rejected by the automated DCO check.
+
+---
+
+## Blog Posts
+
+Blog posts PRs are reviewed by the [Brigade Team](./CODEOWNERS) and require approval from maintainers before merge.
