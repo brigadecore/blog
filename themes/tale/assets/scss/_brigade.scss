@@ -131,4 +131,15 @@ main {
     }
 
   }
+
+  .catalogue {
+    h1 {
+      color: $blued;
+    }
+
+    p {
+      margin: 1rem 0 3rem;
+      line-height: 1.7;
+    }
+  }
 }
