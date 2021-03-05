@@ -1,0 +1,134 @@
+$work: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+$blued: #277a9f;
+$bluem: #37b0e7;
+$bluel: #EFF4F5;
+
+// Layout
+nav.nav {
+  border-top: 4px solid #37b0e7;
+  background: #E4ECE8;
+  background: -webkit-linear-gradient(left, #E4ECE8, #9AAACD);
+  background: -moz-linear-gradient(left, #E4ECE8, #9AAACD);
+  background: linear-gradient(to right, #E4ECE8, #9AAACD);
+  min-height: 7.5rem;
+  padding-top: 32px;
+
+  .nav-container {
+    max-width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1,
+  p {
+    color: $blued !important;
+  }
+
+  h2  {
+    text-indent: -9999em;
+    position: absolute;
+    left: 0;
+    top: -1.25em;
+    background: url('../../images/brigade.png') no-repeat 0 0;
+    background-size: contain;
+    width: 240px;
+    min-height: 78px;
+    display: block;
+  }
+  p {
+    text-indent: -999em;
+  }
+
+  ul {
+    position: absolute;
+    right: 0;
+    top: -1.25rem;
+
+    li {
+      opacity: 1;
+    }
+
+    a {
+      font-size: 1.125rem;
+      color: $blued;
+      padding: 0.7rem 0.85rem;
+      opacity: 1;
+      background: rgba(255,255,255,0);
+      border-radius: 3rem;
+      transition: all ease 0.3s;
+
+      &:hover {
+        background: rgba(255,255,255,0.5);
+      }
+    }
+  }
+}
+
+main {
+  padding-top: 1.5rem;
+
+  .post {
+    .post-title {
+      color: $blued;
+    }
+  
+    .post-line {
+      border-top-color: $bluem;
+      margin-bottom: 5rem;
+    }
+
+    h2, h3, h4 {
+      color: $blued;
+    }
+
+    h2 {
+      margin: 3rem 0 1.5rem;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      letter-spacing: 0.075em;
+      margin: 1.5rem 0 0.5rem;
+      position: relative;
+      display: inline-block;
+
+      &:after {
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        bottom: -5px;
+        display: block;
+        content: " ";
+        background-color: $bluem;
+        opacity: 0.25;
+      }
+    }
+
+    p {
+      line-height: 1.636;
+      margin: 1.5rem 0;
+    }
+
+    li {
+      margin: 0.25rem 0;
+    }
+
+    code {
+      background: #e4ece8;
+    }
+
+    pre {
+      margin-top: 1.5rem;
+      margin-bottom: 2.5rem;
+      padding: 1rem;
+      color: #6a818a;
+      border-radius: .667rem;
+      background: #e4ece8;
+      background: -webkit-linear-gradient(left,#E4ECE8,#dde7e2);
+      background: -moz-linear-gradient(left,#E4ECE8,#dde7e2);
+      background: linear-gradient(to right,#E4ECE8,#dde7e2);
+      line-height: 1.4;
+    }
+
+  }
+}

@@ -2,3 +2,29 @@ baseURL = "https://blog.brigade.sh/"
 languageCode = "en-us"
 title = "Brigade Blog"
 theme = "tale"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Home"
+    url = "https://brigade.sh/"
+    weight = 1
+  [[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    title = "Docs"
+    url = "https://docs.brigade.sh/"
+    weight = 2
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    title = "Blog"
+    url = "https://blog.brigade.sh/"
+    weight = 3
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    title = "GitHub"
+    url = "https://github.com/brigadecore/brigade"
+    weight = 4
