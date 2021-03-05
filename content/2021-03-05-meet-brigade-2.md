@@ -1,8 +1,8 @@
 ---
 title: "Meet Brigade 2"
-slug: "meet-brigade-2"
-description: "We're proud to annouce Brigade 2 (Alpha 1)! Here's what users can expect in this milestone release."
-date: "2021-03-04"
+slug: "2021-03-05-meet-brigade-2"
+description: "We're proud to announce the first alpha release of Brigade 2!"
+date: "2021-03-05"
 author: "Kent Rancourt"
 ---
 
