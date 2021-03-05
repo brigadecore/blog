@@ -11,7 +11,7 @@ experiences using the product, as well as our own, have been hard at work
 planning and implementing a major revision of the platform. Today, we're proud
 to announce a milestone in that effort -- the release of __Brigade
 v2.0.0-alpha.1__. While we're still working out the kinks and cultivating an
-extended Brigade 2 ecosystem, we feel its time to begin introducing the
+extended Brigade 2 ecosystem, we feel it is time to begin introducing the
 community to Brigade 2.
 
 If you're unfamiliar with Brigade, now might be a good time to head over to
