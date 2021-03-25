@@ -1,2 +1,4 @@
-# ref: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
-# CODEOWNERS are members of the brigadecore team - https://github.com/orgs/brigadecore/people
+# This file is described here:  https://help.github.com/en/articles/about-code-owners
+
+# Global Owners: These members are Core Maintainers of Brigade
+* @brigadecore/maintainers
