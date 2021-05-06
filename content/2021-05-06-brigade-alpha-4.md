@@ -104,9 +104,25 @@ $ brig project secret set -p hello-world -f project-secret.json
 Set secret "password" for project "hello-world".
 ```
 
+## Come join us
+
+We're really excited about the progress being made on Brigade 2 and we'd be
+delighted to help users and developers get up to speed.  Check out the
+[previous blog post][Brigade v2 announcement post] and/or the [v2 README]
+for tutorials on how to get started.
+
+[Please file issues](https://github.com/brigadecore/brigade/issues)
+to tell us about problems
+you encounter or even to make feature requests!  We're also available to answer
+questions in the [#brigade](https://kubernetes.slack.com/messages/C87MF1RFD)
+channel on the Kubernetes Slack.
+
+Thanks for reading and see you on the internet!
+
 [Brigade v2.0.0-alpha.4]: https://github.com/brigadecore/brigade/releases/tag/v2.0.0-alpha.4
-[Brigade v2 announcement post]: ./2021-03-05-meet-brigade-2.md
+[Brigade v2 announcement post]: ./../2021-03-05-meet-brigade-2
 [OpenID Connect]: https://openid.net/connect/
 [GitHub OAuth]: https://docs.github.com/en/github/authenticating-to-github/authorizing-oauth-apps
 [GitHub OAuth App]: https://docs.github.com/en/developers/apps/creating-an-oauth-app
 [thirdPartyAuth]: https://github.com/brigadecore/brigade/blob/845c9d7585883db98735400efd229315e3c0bc7a/charts/brigade/values.yaml#L34-L72
+[v2 README]: https://github.com/brigadecore/brigade/blob/v2/README.md
