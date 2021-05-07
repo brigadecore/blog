@@ -1,8 +1,8 @@
 ---
 title: "Latest alpha release for Brigade v2"
-slug: "2021-05-06-brigade-v2-alpha-4"
+slug: "2021-05-11-brigade-v2-alpha-4"
 description: "We're excited to announce the latest alpha release for Brigade v2"
-date: "2021-05-06"
+date: "2021-05-11"
 author: "Vaughn Dice"
 ---
 
