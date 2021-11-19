@@ -1,8 +1,8 @@
 ---
 title: "Brigade 2 Cuts First Release Candidate"
-slug: "2021-11-18-brigade-2-cuts-first-release-candidate"
+slug: "2021-11-19-brigade-2-cuts-first-release-candidate"
 description: "Brigade 2 has cut its first release candidate"
-date: "2021-11-18"
+date: "2021-11-19"
 author: "Kent Rancourt"
 summary: Brigade 2 has cut its first release candidate.
 ---
