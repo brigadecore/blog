@@ -9,7 +9,7 @@ summary: Brigade 2 has cut its first release candidate.
 
 We have exciting news, Brigadiers!
 
-Yesterday afternoon, maintainers cut the first Brigade 2 release candidate. This release candidate (v2.0.0-rc.1) also marks Brigade 2's transition from serving the v2 beta API to serving the _stable_ v2 API. With this new level of stability, there's never been a better time to get started with Brigade 2, so please do consider heading over to our recently refreshed [QuickStart](https://v2--brigade-docs.netlify.app/intro/quickstart/) and taking us for a spin.
+Yesterday afternoon, maintainers cut the first Brigade 2 release candidate. This release candidate ([v2.0.0-rc.1](https://github.com/brigadecore/brigade/releases/tag/v2.0.0-rc.1)) also marks Brigade 2's transition from serving the v2 beta API to serving the _stable_ v2 API. With this new level of stability, there's never been a better time to get started with Brigade 2, so please do consider heading over to our recently refreshed [QuickStart](https://v2--brigade-docs.netlify.app/intro/quickstart/) and taking us for a spin.
 
 The transition to the stable API means previous versions of gateways and other peripherals are not compatible with this release candidate, but as of this morning, we have _also_ transitioned every one of those projects to the stable API and cut a beta release of each. (They each currently remain at a beta level of maturity despite Brigade 2 itself having advanced to a release candidate.)
 
