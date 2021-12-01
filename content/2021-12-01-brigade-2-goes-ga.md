@@ -21,4 +21,4 @@ So what's next for Brigade?
 
 While it won't be long before we start work on v2.1, maintainers will be shifting focus over the near term to put the finishing touches on our latest event gateways and other peripherals, such as Brigade Metrics. We'll also be investing more in building up the Brigade community -- especially the community of v2 users -- so remember that maintainers are always available to chat and answer questions in the [#brigade channel on the Kubernetes Slack](https://kubernetes.slack.com/messages/C87MF1RFD). Come say hello!
 
-Check back soon for updates on gateway releases! Until then, we hope you will enjoy Brigade 2 as much as we've enjoyed building it and using it ourselves!
+Check back soon for updates on gateway releases. Until then, we hope you will enjoy Brigade 2 as much as we've enjoyed building it and using it ourselves!
