@@ -11,7 +11,11 @@ Alright, Brigadiers! This is the day we've all been waiting for. Brigade 2 is ge
 
 But that's not all!
 
-As promised in [a previous post](/2021-11-17-brigade-v1-support-window), we've given some overdue love to Brigade 1.x as it enters a six month maintenance window. Yesterday, we released v1.9.0 of our Helm chart. It installs the existing Brigade v1.4.0 software, but addresses the deprecation or removal of certain beta APIs from newer releases of Kubernetes, making v1.4.0 installable, for the first time, on the newest, shiniest clusters. We've also released Brigade v1.5.0, which primarily remediates high severity vulnerabilities in the worker's JavaScript dependencies. Brigade v1.5.0 is installable using Helm chart v1.10.0.
+As promised in [a previous post](/2021-11-17-brigade-v1-support-window), we've given some overdue love to Brigade 1.x as it enters a six month maintenance window. Yesterday we released:
+
+* __Helm chart v1.9.0:__ This installs the existing Brigade v1.4.0 software, but addresses the deprecation or removal of certain beta APIs from newer releases of Kubernetes, making v1.4.0 installable, for the first time, on the newest, shiniest clusters.
+
+* __Helm chart v1.10.0:__ This includes the above improvements, but also installs Brigade v1.5.0, which primarily remediates high severity vulnerabilities in the worker's JavaScript dependencies.
 
 Still, there's more!
 
