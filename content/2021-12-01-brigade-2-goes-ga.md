@@ -11,7 +11,7 @@ Alright, Brigadiers! This is the day we've all been waiting for. Brigade 2 is ge
 
 But that's not all!
 
-As promised in [a previous post](/2021-11-17-brigade-v1-support-window), we've given some overdue love to Brigade 1.x as it enters a six month maintenance window. Yesterday we released:
+As promised in [a previous post](/2021-11-17-brigade-v1-support-window), we've also released some updates to Brigade 1.x as it enters a six month maintenance window. These include:
 
 * __Helm chart v1.9.0:__ This installs the existing Brigade v1.4.0 software, but addresses the deprecation or removal of certain beta APIs from newer releases of Kubernetes, making v1.4.0 installable, for the first time, on the newest, shiniest clusters.
 
@@ -23,6 +23,6 @@ In an extraordinarily fortunate quirk of timing, CNCF is hosting our all-new, on
 
 So what's next for Brigade?
 
-While it won't be long before we start work on v2.1, maintainers will be shifting focus over the near term to put the finishing touches on our latest event gateways and other peripherals, such as Brigade Metrics. We'll also be investing more in building up the Brigade community -- especially the community of v2 users -- so remember that maintainers are always available to chat and answer questions in the [#brigade channel on the Kubernetes Slack](https://kubernetes.slack.com/messages/C87MF1RFD). Come say hello!
+While it won't be long before we start work on v2.1, maintainers will be shifting focus over the near term to put the finishing touches on our latest event gateways and other peripherals, such as [Brigade Metrics](https://github.com/brigadecore/brigade-metrics). We'll also be investing more in building up the Brigade community -- especially the community of v2 users -- so remember that maintainers are always available to chat and answer questions in the [#brigade channel on the Kubernetes Slack](https://kubernetes.slack.com/messages/C87MF1RFD). Come say hello!
 
 Check back soon for updates on gateway releases. Until then, we hope you will enjoy Brigade 2 as much as we've enjoyed building it and using it ourselves!
