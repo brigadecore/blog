@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/index.xml"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
