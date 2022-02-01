@@ -33,9 +33,10 @@ statuses back to GitHub (through the
 [Checks API](https://docs.github.com/en/rest/reference/checks)) was the
 sole responsibility of the script author, and although libraries sprang up over
 time to help with this, it was never as seamless as we wished it were. Brigade
-v2's improved architecture has permitted the Brigade GitHub Gateway to include
-an event-monitoring component that automatically watches the status of all jobs
-associated with CI/CD-related events and reports their statuses back to GitHub.
+v2's improved architecture, meanwhile, has permitted the Brigade GitHub Gateway
+to include an event-monitoring component that _automatically_ watches the status
+of all jobs associated with CI/CD-related events and reports their statuses back
+to GitHub.
 
 If you're interested in installing this gateway, check out the
 [install docs](https://github.com/brigadecore/brigade-github-gateway/blob/main/docs/INSTALLATION.md).
