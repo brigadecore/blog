@@ -23,7 +23,7 @@ bus. Although the gateway works with any and all events emitted by a
 case is as a trigger for CI/CD pipelines that execute within Brigade -- and, in
 fact, this is exactly how Brigade's own CI/CD pipelines have been implemented.
 
-Putting aside its obvious utility, what the maintainers are most excited about
+Putting aside its inherent utility, what the maintainers are most excited about
 is how effectively this new gateway demonstrates the vision behind Brigade v2.
 When we first decided to re-architect the platform and build it around a rich,
 new API, one of the motivating factors was a desire to implement "smarter"
@@ -32,9 +32,9 @@ previously left to script authors. In Brigade v1, for instance, reporting
 statuses back to GitHub (through the
 [Checks API](https://docs.github.com/en/rest/reference/checks)) was the
 sole responsibility of the script author, and although libraries sprang up over
-time to help with this, it was never truly _easy_. Brigade v2's improved
-architecture has permitted the Brigade GitHub Gateway to include an
-event-monitoring component that automatically watches the status of all jobs
+time to help with this, it was never as seamless as we wished it were. Brigade
+v2's improved architecture has permitted the Brigade GitHub Gateway to include
+an event-monitoring component that automatically watches the status of all jobs
 associated with CI/CD-related events and reports their statuses back to GitHub.
 
 If you're interested in installing this gateway, check out the
