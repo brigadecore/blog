@@ -1,8 +1,8 @@
 ---
 title: "The Brigade GitHub Gateway Goes GA"
-slug: "2022-02-01-github-gateway-goes-ga"
+slug: "2022-02-02-github-gateway-goes-ga"
 description: "The new Brigade GitHub Gateway is now generally available"
-date: "2022-02-01"
+date: "2022-02-02"
 author: "Kent Rancourt"
 summary: The Brigade GitHub Gateway is now generally available.
 ---
