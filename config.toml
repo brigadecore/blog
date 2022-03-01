@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Brigade Blog"
 theme = "tale"
 
+[params]
+  faviconSizes = [ 16, 32, 48 ]
+
 [menu]
   [[menu.main]]
     identifier = "home"
