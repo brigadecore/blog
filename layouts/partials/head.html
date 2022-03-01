@@ -21,6 +21,8 @@
 		{{ range .Site.Params.css -}}
 			<link rel="stylesheet" href="{{ . | relURL }}">
 		{{ end -}}
+		{{ $style := resources.Get "scss/brigade.scss" | toCSS | minify | fingerprint }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 		<!-- Favicon -->
 		{{- range $i := .Site.Params.faviconSizes }} 
