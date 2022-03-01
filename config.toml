@@ -6,6 +6,9 @@ theme = "tale"
 [params]
   faviconSizes = [ 16, 32, 48 ]
 
+  # Google Analytics
+  google_analytics_id = "UA-130516746-5"
+
 [menu]
   [[menu.main]]
     name = "Brigade Home"
