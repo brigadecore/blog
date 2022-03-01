@@ -19,3 +19,7 @@ theme = "tale"
     name = "GitHub"
     url = "https://github.com/brigadecore/brigade"
     weight = 3
+
+[markup]
+  [markup.highlight]
+    style = 'pygments'
