@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'work_sansregular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/worksans-regular-webfont.eot');
+  src: url('../fonts/worksans-regular-webfont.eot?#iefix') format("embedded-opentype"),
+       url('../fonts/worksans-regular-webfont.woff') format('woff'),
+       url('../fonts/worksans-regular-webfont.ttf') format('truetype');
+}
+
+$colord: #277a9f;
+$colorm: #37b0e7;
+$colorl: #EFF4F5;
+$boxl: #E4ECE8;
+$boxd: #9AAACD;
+$text: #647B83;
+$work: 'work_sansregular', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+
+:root {
+  font-family: $work;
+}
+
+// Layout
+.nav {
+  background: $boxl;
+  background: -webkit-linear-gradient(left, $boxl, $boxd);
+  background: -moz-linear-gradient(left, $boxl, $boxd);
+  background: linear-gradient(to right, $boxl, $boxd);
+  border-top: 4px solid $colorm;
+  padding: 0;
+
+  .nav-container {
+    min-width: 100%;
+    padding: 0;
+  }
+
+  // Logo
+  .nav-title {
+    background: url('../img/brigade.png') no-repeat 0 0;
+    background-size: contain;
+    display: block;
+    font-size: 0;
+    width: 197px;
+    height: 78px;
+    margin: 20px 45px 10px 45px;
+  }
+
+  // Menu
+  ul {
+    padding-right: 45px;
+    position: absolute;
+    text-align: right;
+    top: 0.5em;
+    li {
+      margin: 0 0 0 30px;
+      opacity: 1;
+      padding: 0;
+      a {
+        color: $colord;
+        font-family: $work;
+        font-size: 1.125em;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+main {
+  .catalogue, .post {
+
+    .catalogue-line, .post-line {
+      border-top-color: $colorm;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: $colord;
+      font-family: $work;
+    }
+    
+    p {
+      color: $text;
+      line-height: 2;
+      margin: 1.5em 0;
+    }
+
+    .highlight {
+      background: none;
+      pre {
+        background: $boxl;
+        border-radius: .667rem;
+        line-height: 1.4;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 1em;
+      }
+    }
+
+  }
+
+}
+
+// For viewports narrower than 650px, the logo and the global menu overlap.
+// The global menu isn't actually terribly important, so we just hide it and
+// center the logo. Note that 650px is ABOVE the 480px threshold where we fully
+// swap to the mobile layout.
+@media only screen and (max-width: 650px) {
+  .nav {
+    .nav-title {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    ul {
+      display: none;
+    }
+  }
+}

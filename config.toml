@@ -3,28 +3,26 @@ languageCode = "en-us"
 title = "Brigade Blog"
 theme = "tale"
 
+[params]
+  faviconSizes = [ 16, 32, 48 ]
+
+  # Google Analytics
+  google_analytics_id = "UA-130516746-5"
+
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    title = "Home"
+    name = "Brigade Home"
     url = "https://brigade.sh/"
     weight = 1
   [[menu.main]]
-    identifier = "docs"
     name = "Docs"
-    title = "Docs"
     url = "https://docs.brigade.sh/"
     weight = 2
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    title = "Blog"
-    url = "https://blog.brigade.sh/"
-    weight = 3
-  [[menu.main]]
-    identifier = "github"
     name = "GitHub"
-    title = "GitHub"
     url = "https://github.com/brigadecore/brigade"
-    weight = 4
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    style = 'pygments'
