@@ -135,7 +135,7 @@ bash, zsh, or the Windows Subsystem for Linux.
 
 First, you'll need Helm 3 with experimental support for OCI registries enabled:
 
-```console
+```shell
 $ export HELM_EXPERIMENTAL_OCI=1
 ```
 
@@ -143,20 +143,20 @@ Next, pull the chart from the GitHub Container Registry and _export_ it to save
 it somewhere on your local file system. In the example below, we store it at
 `~/charts`:
 
-```console
+```shell
 $ helm chart pull ghcr.io/brigadecore/brigade:v2.0.0-alpha.1
 $ helm chart export ghcr.io/brigadecore/brigade:v2.0.0-alpha.1 -d ~/charts
 ```
 
 Now create a Kubernetes namespace to install Brigade into. We use `brigade2`:
 
-```console
+```shell
 $ kubectl create namespace brigade2
 ```
 
 And install Brigade with default configuration:
 
-```console
+```shell
 $ helm install brigade2 ~/charts/brigade --namespace brigade2
 ```
 
@@ -172,7 +172,7 @@ Because you are presumably following these steps in a local cluster, the best
 method of exposing Brigade 2's API server is to do something like this after
 installation:
 
-```console
+```shell
 $ kubectl --namespace brigade2 port-forward \
     service/brigade2-apiserver 8443:443 &>/dev/null &
 ```
@@ -197,7 +197,7 @@ Log in as the "root" user, using the default root password `F00Bar!!!`. Be sure
 to use the `-k` option to indicate tolerance for the API server's self-signed
 certificate.
 
-```console
+```shell
 $ brig -k login --server https://localhost:8443 --root
 ```
 
@@ -227,7 +227,7 @@ You can download an example from
 With this file stored locally, at a location such as `~/pipeline-demo.yaml`, for
 instance, you can direct Brigade to create a new project from this file:
 
-```console
+```shell
 $ brig -k project create --file ~/pipeline-demo.yaml
 ```
 
@@ -240,7 +240,7 @@ installed can enable context help!
 
 With your first project set up, it's time to create your first event:
 
-```console
+```shell
 $ brig -k event create --project pipeline-demo
 ```
 
@@ -251,7 +251,7 @@ _asynchronously_ by Brigade 2.
 
 To view the status of the event:
 
-```console
+```shell
 $ brig -k event get --id <event id from previous step>
 ```
 
