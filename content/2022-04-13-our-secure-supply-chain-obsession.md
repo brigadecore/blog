@@ -363,16 +363,13 @@ to evolve our process as the state of the art advances.
 
 ## Signing Images
 
-Last, but certainly not least, in recent weeks the Brigade project has also
-begun signing all images we push to Docker Hub. I'm not sure how much there is
-to say about this topic. Signing Docker images is not a new or novel concept and
-it's documented well elsewhere
-([here](https://docs.docker.com/engine/security/trust/), for instance),
-Maintainers felt strongly that after recent efforts to minimize our
-dependencies, scan our images, and publish bills of material, we owed it to our
-users to offer them the best assurances we are able that the images they're
-pulling from Docker Hub are in fact the _authentic_ images to which we've
-applied all this diligence.
+Last, but certainly not least, in recent weeks the project has also begun
+signing all images we push to Docker Hub. While signing Docker images is not a
+new or novel concept, it's something we hadn't been doing previously, and in
+light of our recent efforts to minimize our dependencies, scan our images, and
+publish bills of material, we wanted to go just one step further to help our
+users know that the images they're pulling from Docker Hub are in fact the
+_authentic_ images to which this great diligence has been applied.
 
 If you deliver your own software in the form of Docker images, this is once
 again, something we highly recommend you begin doing.
@@ -380,7 +377,7 @@ again, something we highly recommend you begin doing.
 ## Wrapping Up
 
 All the advancements we've discussed here have already been incorporated into
-the latest releases of all Brigade peripherals (gateways, dashboard, etc.) and
+the latest releases of all Brigade peripherals (gateways, dashboards, etc.) and
 the upcoming Brigade v2.4.0 release will incorporate the same advancements into
 Brigade itself.
 
