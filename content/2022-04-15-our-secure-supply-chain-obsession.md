@@ -380,8 +380,7 @@ again, something we highly recommend you begin doing.
 ## Wrapping Up
 
 All the advancements we've discussed here have already been incorporated into
-the latest releases of all Brigade peripherals (gateways, dashboards, etc.) and
-the upcoming Brigade v2.4.0 release will incorporate the same advancements into
-Brigade itself.
+the latest releases of Brigade and all its peripheral components -- gateways,
+dashboards, etc.
 
 Happy hacking, everyone! Stay secure!
