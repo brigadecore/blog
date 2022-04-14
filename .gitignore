@@ -22,3 +22,6 @@ resources/
 # Link checker artifacts
 bin/
 tmp/
+
+.brigade/secrets.yaml
+.brigade/node_modules/
