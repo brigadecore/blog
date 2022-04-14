@@ -111,9 +111,9 @@ automatically opens PRs to upgrade those same dependencies once a patch becomes
 available. If you're not already doing this with your own repositories, we
 suggest you start immediately.
 
-{{< blockquote >}}
+{{< pullout >}}
   Stale software is vulnerable software.
-{{< /blockquote >}}
+{{< /pullout >}}
 
 But our effort to monitor our dependencies didn't end with Dependabot; it merely
 began there. For TypeScript-based components of Brigade and related projects,
