@@ -97,6 +97,31 @@ main {
       }
     }
 
+    .punchy {
+      border: 0;
+      padding-left: 80px;
+      p {
+        font-size: 1.5em;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 2em;
+        &:before {
+          font-size: 2em;
+          content: "\201C";
+          margin-right: 0.2em;
+          position: relative;
+          top: 0.15em;
+        }
+        &:after {
+          font-size: 2em;
+          content: "\201D";
+          margin-left: 0;
+          position: relative;
+          top: 0.15em;
+        }
+      }
+    }
+
   }
 
 }

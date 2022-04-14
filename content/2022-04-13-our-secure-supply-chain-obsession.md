@@ -111,6 +111,10 @@ automatically opens PRs to upgrade those same dependencies once a patch becomes
 available. If you're not already doing this with your own repositories, we
 suggest you start immediately.
 
+{{< blockquote >}}
+  Stale software is vulnerable software.
+{{< /blockquote >}}
+
 But our effort to monitor our dependencies didn't end with Dependabot; it merely
 began there. For TypeScript-based components of Brigade and related projects,
 we've also integrated a `yarn audit` into our CI processes. While this mostly
