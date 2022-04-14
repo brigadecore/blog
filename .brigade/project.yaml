@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://schemas.brigade.sh/schemas-v2/project.json
+apiVersion: brigade.sh/v2
+kind: Project
+metadata:
+  id: brigade-blog
+description: Automated daily re-deploy of the blog
+spec:
+  eventSubscriptions:
+  - source: brigade.sh/cron
+    types:
+    - daily-redeploy
+  workerTemplate:
+    git:
+      cloneURL: https://github.com/brigadecore/blog.git

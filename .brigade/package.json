@@ -1,0 +1,7 @@
+{
+  "name": "brigade-blog",
+  "dependencies": {
+    "@brigadecore/brigadier": "^2.3.1",
+    "axios": "^0.26.1"
+  }
+}
