@@ -99,12 +99,17 @@ main {
 
     .pullout {
       border: 0;
-      padding-left: 80px;
+      margin: 0;
+      padding: 0;
+      text-align: center;
       p {
+        display: inline-block;
         font-size: 1.5em;
         font-style: italic;
         font-weight: bold;
         line-height: 2em;
+        margin: 0;
+        max-width: 80%;
         &:before {
           font-size: 2em;
           content: "\201C";
