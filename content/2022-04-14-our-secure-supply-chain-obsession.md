@@ -1,8 +1,8 @@
 ---
 title: "Our Secure Supply Chain Obsession"
-slug: "2022-04-13-our-secure-supply-chain-obsession"
+slug: "2022-04-14-our-secure-supply-chain-obsession"
 description: "Let's talk about our project's obsession with securing our software supply chain"
-date: "2022-04-13"
+date: "2022-04-14"
 author: "Kent Rancourt"
 summary: |
   Today we have a somewhat different sort of blog post for you. The project has
