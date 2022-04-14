@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Brigade Blog"
 theme = "tale"
 
+[author]
+  name = "The Brigade Authors"
+
 [params]
   faviconSizes = [ 16, 32, 48 ]
 
