@@ -1,8 +1,8 @@
 ---
 title: "Our Secure Supply Chain Obsession"
-slug: "2022-04-14-our-secure-supply-chain-obsession"
+slug: "2022-04-15-our-secure-supply-chain-obsession"
 description: "Let's talk about our project's obsession with securing our software supply chain"
-date: "2022-04-14"
+date: "2022-04-15"
 author: "Kent Rancourt"
 summary: |
   Today we have a somewhat different sort of blog post for you. The project has
@@ -369,7 +369,10 @@ new or novel concept, it's something we hadn't been doing previously, and in
 light of our recent efforts to minimize our dependencies, scan our images, and
 publish bills of material, we wanted to go just one step further to help our
 users know that the images they're pulling from Docker Hub are in fact the
-_authentic_ images to which this great diligence has been applied.
+_authentic_ images to which this great diligence has been applied. We won't go
+into further detail about the signing process here because it's moderately
+complex and is explained quite well by
+[Docker's own documentation](https://docs.docker.com/engine/security/trust/).
 
 If you deliver your own software in the form of Docker images, this is once
 again, something we highly recommend you begin doing.
