@@ -63,6 +63,10 @@ case, of course, is the
 
 If this sounds like a nightmare to you, you're not wrong.
 
+{{< pullout >}}
+  The cost of securing one's software supply chain is eternal vigilance.
+{{< /pullout >}}
+
 To secure one's own _software_ requires securing one's _software supply chain_.
 Sadly, there's no silver bullet solution to this problem -- although there is no
 shortage of companies working feverishly to find one. Currently, the cost of
@@ -214,6 +218,11 @@ But there are still fourteen system-level packages included in this images and
 every one of those is just _waiting_ for new vulnerabilities to be discovered
 and reported. Scanning this same image tomorrow may yield different results.
 
+{{< pullout >}}
+  We should start asking ourselves exactly how small of a base image we can get
+  away with.
+{{< /pullout >}}
+
 If, at this point, you accept my premise that (with all other things being
 equal), you minimize your software's attackable surface by starting from the
 smallest possible base image, we should start asking ourselves exactly _how_
@@ -318,6 +327,11 @@ remediated immediately? Remember when I said you may discover vulnerabilities
 tomorrow in software that had no known vulnerabilities today? _Remember when I
 said, "Be as transparent as possible with those who use your software?"_ This is
 where SBOMs come into play.
+
+{{< pullout >}}
+  The best and most honest gesture anyone can make to gain the trust of their
+  users is to be publicly transparent about what's in the software.
+{{< /pullout >}}
 
 If no one can ever truly guarantee their software is 100% invulnerable in
 perpetuity, the best and most honest gesture anyone can make to gain the trust
