@@ -47,7 +47,7 @@ be as secure as the base image you started with.
 
 The bottom line is that most software projects have dependencies of _some kind_
 on other software, and this web of dependencies is considered your "software
-supply chain." And as with any chain, this a software supply chain is only as
+supply chain." And as with any chain, this software supply chain is only as
 strong as its weakest link.
 
 While this has always been justification for concern, it has become even more so
@@ -359,7 +359,7 @@ In recent weeks, the Brigade project has integrated this into our release
 processes. Just as our CI processes automatically scan images with Grype
 immediately after they're built, our release processes now automatically
 generate SBOMs with Syft and publish them immediately after pushing images to
-to Docker Hub.
+Docker Hub.
 
 This is where we'll freely admit that we're pretty sure there's still room to
 improve upon what we're doing with these SBOMs. For the moment, we're publishing
