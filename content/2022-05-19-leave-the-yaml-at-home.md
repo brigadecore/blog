@@ -170,13 +170,13 @@ pre-loaded with all of our team's most frequently used
 
 With JavaScript and TypeScript being
 [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness) languages,
-the full range of what you can accomplish with Brigade is unbounded. More than
-simply being unbounded, you're free to implement your workflows using everything
-those languages have to offer -- use `try`, `catch`, and `finally` to handle
-errors, extract your own patterns and preferences into reusable NPM modules, or
-consume third-party modules using either `npm` or `yarn` as your dependency
-manager. Whenever applicable, Brigade workers will run an `npm install` or
-`yarn install` before executing your script!
+the full range of what you can accomplish with Brigade is unbounded and you are
+free to implement your workflows using everything those languages have to offer
+-- use `try`, `catch`, and `finally` to handle errors, extract your own patterns
+and preferences into reusable NPM modules, or consume third-party modules using
+either `npm` or `yarn` as your dependency manager. Whenever applicable, Brigade
+workers will run an `npm install` or `yarn install` before executing your
+script!
 
 With all this power and flexibility at your finger tips, isn't it time you left
 the YAML at home?
