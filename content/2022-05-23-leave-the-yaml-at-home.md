@@ -56,8 +56,8 @@ spec:
       cloneURL: https://github.com/brigadecore/brigade.git
 ```
 
-This is typically all the YAML you write with BRigade -- and most of it can be
-generated for you with the `brig init` command!
+Besides being the only YAML you typically write when using Brigade, most of the
+above can be generated for you with the `brig init` command!
 
 For good measure, let's mention that project definitions such as this one can be
 submitted to your Brigade API server like so:
