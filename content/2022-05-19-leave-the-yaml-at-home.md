@@ -165,7 +165,8 @@ In the excerpt above, we respond to `ci:pipeline_requested` events by executing
 `make test-unit` and `make lint` concurrently (subject to scheduling
 constraints). Each executes in its own container, in its own pod. Those
 containers are both based on a `brigadecore/go-tools:v0.9.0` image that's
-pre-loaded with all of our team's most frequently used Go-based tools.
+pre-loaded with all of our team's most frequently used
+[Go]([Go](https://golang.org))-based tools.
 
 With JavaScript and TypeScript being
 [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness) languages,
