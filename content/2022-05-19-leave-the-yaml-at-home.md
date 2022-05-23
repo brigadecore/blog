@@ -11,7 +11,7 @@ Hello again, Brigadiers!
 
 We've heard from time to time that people aren't always so crazy about YAML --
 and that's putting it nicely. I don't personally harbor such strong anti-YAML
-sentiment, but the critics are out there and as critics are wont to be, they're
+sentiment, but the critics are out there, and as critics often are, they're
 quite vocal. If you dare to search for "yaml sucks" in your favorite search
 engine, you'll find a litany of criticism -- some of it valid. So we thought
 we'd better mention... Brigade involves a _minimal_ amount of YAML -- so little in
