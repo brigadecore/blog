@@ -141,6 +141,10 @@ containers are both based on a `brigadecore/go-tools:v0.9.0` image that's
 pre-loaded with all of our team's most frequently used
 [Go]([Go](https://golang.org))-based tools.
 
+{{< pullout >}}
+  The full range of what you can accomplish with Brigade is unbounded.
+{{< /pullout >}}
+
 With JavaScript and TypeScript being
 [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness) languages,
 the full range of what you can accomplish with Brigade is unbounded and you are
