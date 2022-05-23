@@ -85,8 +85,8 @@ it apart:
       field to indicate where project source -- including the script we'd like
       to run -- can be obtained.
 
-This is all the YAML you write! (And, actually, most of this can be generated
-for you with the `brig init` command!)
+This is all the YAML you write -- and most of it can be generated for you with
+the `brig init` command!
 
 For good measure, let's mention that project definitions such as this one can be
 submitted to your Brigade API server like so:
