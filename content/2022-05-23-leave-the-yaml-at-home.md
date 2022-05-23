@@ -27,10 +27,10 @@ Presumably, if you're reading our blog, you already know that Brigade is an
 event-driven scripting platform for Kubernetes, but in case you're still very
 new to Brigade, let's briefly discuss one of Brigade's most fundamental
 concepts.
-[__Projects__](https://docs.brigade.sh/topics/project-developers/projects/).
-Projects pair __event subscriptions__ with configuration for an event handler
-called a __worker__. These project definitions are often quite concise and
-are typically the only YAML you write when using Brigade.
+[__Projects__](https://docs.brigade.sh/topics/project-developers/projects/) pair
+__event subscriptions__ with configuration for an event handler called a
+__worker__. These project definitions are often quite concise and are typically
+the only YAML you write when using Brigade.
 
 To demonstrate, let's look at a _real_ project definition. This happens to be
 Brigade's _own_ project definition!
