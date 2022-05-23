@@ -10,12 +10,13 @@ summary: "We hear people aren't always crazy about YAML. Have you met Brigade?"
 Hello again, Brigadiers!
 
 We've heard from time to time that people aren't always so crazy about YAML --
-and that's putting it nicely. I don't personally harbor such strong anti-YAML
-sentiment, but the critics are out there, and as critics often are, they're
-quite vocal. If you dare to search for "yaml sucks" in your favorite search
-engine, you'll find a litany of criticism -- some of it valid. So we thought
-we'd better mention... Brigade involves a _minimal_ amount of YAML -- so little in
-fact, that it's fair to say you can "leave the YAML at home."
+and that's putting it nicely. If you dare to search for "yaml sucks" in your
+favorite search engine, you'll find a litany of criticism. While I don't
+generally harbor such strong anti-YAML sentiment, I do feel strongly that
+declarative languages -- YAML included -- are not ideal tools for modeling
+complex workflows. So I thought I'd mention... Brigade involves a _minimal_
+amount of YAML -- so little in fact, that it's fair to say you can "leave the
+YAML at home."
 
 Presumably, if you're reading our blog, you already know that Brigade is an
 event-driven scripting platform for Kubernetes, but in case you're still very
