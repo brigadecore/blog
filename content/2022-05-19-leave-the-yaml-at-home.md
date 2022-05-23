@@ -104,7 +104,8 @@ Your script can be as simple as:
 console.log("Hello, World!")
 ```
 
-Or could mux events, dispatching them to the correct handler function:
+More commonly, scripts are written to dispatch events to a suitable handler
+function:
 
 ```javascript
 const { events } = require("@brigadecore/brigadier");
