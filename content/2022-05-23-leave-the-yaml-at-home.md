@@ -1,8 +1,8 @@
 ---
 title: "Leave the YAML at Home!"
-slug: "2022-05-19-leave-the-yaml-at-home"
+slug: "2022-05-23-leave-the-yaml-at-home"
 description: "Did you know Brigade involves a minimal amount of YAML?"
-date: "2022-05-19"
+date: "2022-05-23"
 author: "Kent Rancourt"
 summary: "We hear people aren't always crazy about YAML. Have you met Brigade?"
 ---
