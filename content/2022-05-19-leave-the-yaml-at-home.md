@@ -178,8 +178,8 @@ either `npm` or `yarn` as your dependency manager. Whenever applicable, Brigade
 workers will run an `npm install` or `yarn install` before executing your
 script!
 
-With all this power and flexibility at your finger tips, isn't it time you left
-the YAML at home?
+With all this power and flexibility of full-featured programming languages at
+our disposal, we think it's time to leave the YAML at home.
 
 Head on over to [docs.brigade.sh](https://docs.brigade.sh) if you'd like to
 learn more, and until next time, remember that maintainers are always available
