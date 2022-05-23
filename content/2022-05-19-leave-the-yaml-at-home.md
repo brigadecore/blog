@@ -18,6 +18,11 @@ complex workflows. So I thought I'd mention... Brigade involves a _minimal_
 amount of YAML -- so little in fact, that it's fair to say you can "leave the
 YAML at home."
 
+{{< pullout >}}
+  Project definitions are often quite concise and are typically the only YAML
+  you write.
+{{< /pullout >}}
+
 Presumably, if you're reading our blog, you already know that Brigade is an
 event-driven scripting platform for Kubernetes, but in case you're still very
 new to Brigade, let's briefly discuss one of Brigade's most fundamental
@@ -51,42 +56,8 @@ spec:
       cloneURL: https://github.com/brigadecore/brigade.git
 ```
 
-While the above closely resembles a Kubernetes manifest, it is not. Let's pick
-it apart:
-
-* If your text editor or IDE integrates with the YAML language server, the
-  comment on the first line will allow your editor or IDE to validate your
-  project definition and offer context help. (I use
-  [VS Code](https://code.visualstudio.com/) with
-  [YAML Language Support by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml).)
-
-* As with a Kubernetes manifest, we move on to denote what type of resource this
-  YAML describes using the `apiVersion` and `kind` fields, and the `metadata.id`
-  field assigns an immutable identifier to our project. The `description` field
-  is probably self-explanatory.
-
-* The `spec` portion of the file does exactly what we said earlier that projects
-  do -- it pairs event subscriptions with worker configuration.
-
-    * The `eventSubscriptions` field uses `source`, `types`, and `qualifiers` to
-      describe events of interest. Event gateways and other event sources
-      document what sort of events they emit and exactly how to subscribe to
-      them. Here, we're interested in three specific event types that originate
-      from the Brigade GitHub Gateway (identified by `source:
-      brigade.sh/github`)
-      _provided_ the gateway qualified the event as being related to the
-      [`brigadecore/brigade`](https://github.com/brigadecore/brigade) repository
-      on GitHub. (For reference, all events available from that gateway are
-      described
-      [here](https://github.com/brigadecore/brigade-github-gateway/blob/main/docs/EVENT_REFERENCE.md).)
-
-    * The `workerTemplate` portion of the file describes the worker that should
-      handle the events. In this simple case, it only uses the `git.cloneURL`
-      field to indicate where project source -- including the script we'd like
-      to run -- can be obtained.
-
-This is all the YAML you write -- and most of it can be generated for you with
-the `brig init` command!
+This is typically all the YAML you write with BRigade -- and most of it can be
+generated for you with the `brig init` command!
 
 For good measure, let's mention that project definitions such as this one can be
 submitted to your Brigade API server like so:
@@ -96,9 +67,9 @@ $ brig project create --file project.yaml
 ```
 
 With this very small bit of YAML out of the way, _everything else you do is with
-JavaScript or TypeScript_ -- both of which are enormously popular with developers
-and are, we think, superior methods of modeling complex workflows (as compared
-to yards and yards of YAML).
+JavaScript or TypeScript_. Both of these languages are enormously popular with
+developers and we think they're superior tools for modeling complex workflows,
+especially compared to yards and yards of YAML.
 
 Your script can be as simple as:
 
