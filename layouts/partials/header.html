@@ -1,0 +1,18 @@
+<section class="banner">
+  <h4>The Brigade project is <a href="https://www.cncf.io/archived-projects">archived</a>.
+    <a href="https://github.com/cncf/toc/pull/915">Learn&nbsp;more</a>.
+  </h4>
+</section>
+
+<nav class="nav">
+	<div class="nav-container">
+		<a href="{{ "/" | relURL }}">
+			{{ if .IsPage }}
+				<h2 class="nav-title">{{ .Site.Title }}</h2>
+			{{ else }}
+				<h1 class="nav-title">{{ .Site.Title }}</h1>
+			{{ end }}
+		</a>
+		{{ partial "header-menu.html" . }}
+	</div>
+</nav>
