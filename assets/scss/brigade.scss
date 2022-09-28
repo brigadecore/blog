@@ -21,6 +21,24 @@ $work: 'work_sansregular', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-seri
 }
 
 // Layout
+
+.banner {
+  background: #dc3545;
+  color: #ffffff;
+  font-size: 0.925em;
+  line-height: 1;
+  padding: 0.75em 0 1.25em;
+  text-align: center;
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  h4 {
+    color: #ffffff;
+    font-size: 140%;
+  }
+}
+
 .nav {
   background: $boxl;
   background: -webkit-linear-gradient(left, $boxl, $boxd);
@@ -78,7 +96,7 @@ main {
       color: $colord;
       font-family: $work;
     }
-    
+
     p {
       color: $text;
       line-height: 2;
@@ -141,7 +159,7 @@ main {
       margin-left: auto;
       margin-right: auto;
     }
-  
+
     ul {
       display: none;
     }
